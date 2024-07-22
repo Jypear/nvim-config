@@ -10,6 +10,13 @@ return require('packer').startup(function(use)
   use "sindrets/diffview.nvim" 
   use "lukas-reineke/indent-blankline.nvim"
   use {
+      "windwp/nvim-autopairs",
+      event = "InsertEnter",
+      config = function()
+          require("nvim-autopairs").setup {}
+      end
+  }
+  use {
       'nvim-telescope/telescope.nvim', tag = '0.1.6',
       -- or                            , branch = '0.1.x',
       requires = { {'nvim-lua/plenary.nvim'} }
