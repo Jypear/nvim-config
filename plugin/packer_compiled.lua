@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/Users/jpear/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["diffview.nvim"] = {
+    loaded = true,
+    path = "/Users/jpear/.local/share/nvim/site/pack/packer/start/diffview.nvim",
+    url = "https://github.com/sindrets/diffview.nvim"
+  },
   ["indent-blankline.nvim"] = {
     loaded = true,
     path = "/Users/jpear/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",

@@ -6,6 +6,8 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
+-- Packer
+  use "sindrets/diffview.nvim" 
   use "lukas-reineke/indent-blankline.nvim"
   use {
       'nvim-telescope/telescope.nvim', tag = '0.1.6',
