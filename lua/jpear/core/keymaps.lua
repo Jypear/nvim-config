@@ -30,3 +30,6 @@ keymap.set("n", "k", "kzz")
 keymap.set("n", "n", "nzzzv")
 keymap.set("n", "N", "Nzzzv")
 
+-- terminal
+keymap.set("n", "<leader>t", function() vim.cmd('tab term') end, opt)
+keymap.set("t", "<Esc>", [[<C-\><C-n>]])
