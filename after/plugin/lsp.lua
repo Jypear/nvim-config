@@ -6,6 +6,8 @@ lsp_zero.on_attach(function(client, bufnr)
   -- see :help lsp-zero-keybindings
   -- to learn the available actions
   lsp_zero.default_keymaps({buffer = bufnr})
+  vim.keymap.set('n', '<leader>r', function() vim.lsp.buf.references() end, {buffer = bufnr})
+  vim.keymap.set('n', '<leader>u', function() vim.lsp.buf.definition() end, {buffer = bufnr})
 end)
 
 lsp_zero.format_on_save({
