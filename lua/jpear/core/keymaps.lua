@@ -11,6 +11,10 @@ keymap.set("n", "<leader>w", ":tabclose<CR>") -- tab close - Note close splits f
 keymap.set("n", "<leader>f", ":tabn<CR>") -- Move next tab 
 keymap.set("n", "<leader>d", ":tabp<CR>") -- Move previous tab
 
+-- References
+keymap.set("n", "<leader>u", "gd") -- Go to definition
+keymap.set("n", "<leader>r", "gr") -- Go to references
+
 -- Split maps
 keymap.set("n", "<leader>s", "<C-w>v") -- split window
 keymap.set("n", "<leader>w", ":close<CR>") -- close window
