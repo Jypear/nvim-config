@@ -10,6 +10,9 @@ return require('packer').startup(function(use)
   use "sindrets/diffview.nvim" 
   use "lukas-reineke/indent-blankline.nvim"
   use {
+    "ray-x/lsp_signature.nvim",
+  }
+  use {
       "windwp/nvim-autopairs",
       event = "InsertEnter",
       config = function()
