@@ -22,10 +22,10 @@ lsp_zero.format_on_save({
 
 cmp.setup({
     mapping = {
-        ['<C-Tab>'] = cmp.mapping.abort(),
-        ['<Tab>'] = cmp.mapping.confirm({select=true}),
-        ['<C-j>'] = cmp.mapping.select_next_item({ behavior = cmp.SelectBehavior.Select }),
-        ['<C-k>'] = cmp.mapping.select_prev_item({ behavior = cmp.SelectBehavior.Select })
+        ['<Esc>'] = cmp.mapping.abort(),
+        ['<CR>'] = cmp.mapping.confirm({select=true}),
+        ['<Tab>'] = cmp.mapping.select_next_item({ behavior = cmp.SelectBehavior.Select }),
+        ['<C-Tab>'] = cmp.mapping.select_prev_item({ behavior = cmp.SelectBehavior.Select })
     }
 })
 
