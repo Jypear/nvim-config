@@ -35,4 +35,4 @@ opt.splitbelow = true
 
 
 -- colorcolumn
-opt.colorcolumn = "88"
+opt.colorcolumn = "120"
