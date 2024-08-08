@@ -32,3 +32,7 @@ opt.clipboard:append("unnamedplus")
 -- splits
 opt.splitright = true
 opt.splitbelow = true
+
+
+-- colorcolumn
+opt.colorcolumn = "88"
