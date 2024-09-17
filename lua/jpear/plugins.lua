@@ -8,6 +8,7 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
 -- Packer
   use "sindrets/diffview.nvim" 
+  use "glench/vim-jinja2-syntax"
   use "lukas-reineke/indent-blankline.nvim"
   use {
     "ray-x/lsp_signature.nvim",
